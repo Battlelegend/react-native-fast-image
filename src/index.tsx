@@ -48,6 +48,7 @@ export type Source = {
     headers?: { [key: string]: string }
     priority?: Priority
     cache?: Cache
+    cacheOmitURLParams?: boolean
 }
 
 export interface OnLoadEvent {
